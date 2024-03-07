@@ -8,7 +8,7 @@ For Windows download "Windows Binary (.zip)".
 Extract to some folder.
 
 Open Terminal in:
-/<some folder>/node-v20.11.1-linux-x64/bin/
+/&lt;some folder&gt;/node-v20.11.1-linux-x64/bin/
 
 In Linux right click "node" binary executable file and select "Make executable".
 

@@ -1,6 +1,6 @@
 # node-without-install
 
-https://nodejs.org/en/download
+Downlaod the binaries from https://nodejs.org/en/download
 
 For Linux download "Linux Binaries (x64)"
 For Windows download "Windows Binary (.zip)".

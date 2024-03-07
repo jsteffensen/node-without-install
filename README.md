@@ -1,11 +1,15 @@
 # node-without-install
 
-Downlaod the binaries from https://nodejs.org/en/download
+## Download binaries
+
+Download the binaries from https://nodejs.org/en/download
 
 For Linux download "Linux Binaries (x64)"
 For Windows download "Windows Binary (.zip)".
 
 Extract to some folder.
+
+## Running Node and NPM
 
 Open Terminal in:
 /&lt;some folder&gt;/node-v20.11.1-linux-x64/bin/

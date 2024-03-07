@@ -9,7 +9,7 @@ For Windows download "Windows Binary (.zip)".
 
 Extract to some folder.
 
-In Linux right click "node" binary executable file and select "Make executable".
+In Linux right click "node" binary executable file (in /bin folder) and select "Make executable".
 
 ## Running Node and NPM
 

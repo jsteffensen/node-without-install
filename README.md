@@ -16,6 +16,9 @@ In Linux right click "node" binary executable file and select "Make executable".
 Open Terminal in:
 /&lt;some folder&gt;/node-v20.11.1-linux-x64/bin/
 
+Since you have not installed Node the npm command is not on your path.
+You can still make Node run the NPM script by usingf the following command:
+
 To init project run (generate a package.json file):
 ```./node npm init```
 

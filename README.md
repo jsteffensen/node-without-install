@@ -45,4 +45,7 @@ require('../lib/cli.js')(process)
 ```
 
 Then npm will not rely on node being on your path and you can run npm directly in a folder like:
-```~/Desktop/my-node-project$ ../../node-v22/bin/npm init```
+
+```
+~/Desktop/my-node-project$ ../../node-v22/bin/npm init
+```

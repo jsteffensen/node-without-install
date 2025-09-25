@@ -29,3 +29,10 @@ To install node packages:
 
 To run:
 ```./node index```
+
+You can also put a shebang inside the js file that points to the binary like:
+
+```
+#!/home/secudesk/node-v22/bin/node
+console.log('Node is awesome');
+``` 

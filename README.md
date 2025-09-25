@@ -18,7 +18,7 @@ Open Terminal in:
 /&lt;some folder&gt;/node-v20.11.1-linux-x64/bin/
 
 Since you have not installed Node the ```npm``` command is not on your path.
-You can still make Node run the NPM script by using the following command:
+NPM is a script - not an executable. You can still make Node run the NPM script by using the following command:
 
 To init project (generate a package.json file) run:
 ```./node npm init```
@@ -30,15 +30,17 @@ To install node packages:
 To run:
 ```./node index```
 
-You can also put a shebang inside the js file that points to the binary like:
+But this is messy because you're working inside the /bin folder.
+
+A better solution is to put a shebang inside the js file that points to the binary like:
 
 ```
 #!/home/jsteffensen/node-v22/bin/node
 console.log('Node is awesome');
 ```
-then you can simply run the script from the terminal with ```./myscript``` and it will go pick up the executable binary from the path in the shebang.
+then you can simply run the script from the terminal with ```./myscript``` regardless of where your script is, and it will go pick up the executable node binary from the path in the shebang.
 
-You can edit the npm file in the node bin folder to look like:
+You can even edit the npm file in the node bin folder to look like:
 ```
 #!/home/secudesk/node-v22/bin/node
 require('../lib/cli.js')(process)

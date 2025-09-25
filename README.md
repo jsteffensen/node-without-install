@@ -35,4 +35,5 @@ You can also put a shebang inside the js file that points to the binary like:
 ```
 #!/home/jsteffensen/node-v22/bin/node
 console.log('Node is awesome');
-``` 
+```
+then you can simply run the script from the terminal with ```./myscript``` and it will go pick up the executable binary from the path in the shebang.

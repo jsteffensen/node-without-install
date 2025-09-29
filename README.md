@@ -55,5 +55,5 @@ Then npm will not rely on node being on your path and you can run npm directly i
 It may also be possible to put Node on the path temporarily with:
 
 ```
-export PATH=/home/secudesk/node-v8/bin:$PATH
+export PATH=/home/jsteffensen/node-v8/bin:$PATH
 ```
